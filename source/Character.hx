@@ -145,13 +145,13 @@ class Character extends FlxSprite
 				playAnim('idle');
 				case 'noob':
 				// NOOB ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/DADDY_DEAREST');
+				tex = Paths.getSparrowAtlas('characters/noob');
 				frames = tex;
-				quickAnimAdd('idle', 'Pico Idle Dance');
-				quickAnimAdd('singUP', 'pico Up note');
-				quickAnimAdd('singRIGHT', 'Pico Note Right);
-				quickAnimAdd('singDOWN', 'Pico Down Note');
-				quickAnimAdd('singLEFT', 'Pico NOTE LEFT');
+				quickAnimAdd('idle', 'noobie Idle Dance');
+				quickAnimAdd('singUP', 'noobie Up note');
+				quickAnimAdd('singRIGHT', 'noobie Note Right);
+				quickAnimAdd('singDOWN', 'noobie Down Note');
+				quickAnimAdd('singLEFT', 'noobie NOTE LEFT');
 
 				loadOffsetFile(curCharacter);
 
