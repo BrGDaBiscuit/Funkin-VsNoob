@@ -151,7 +151,7 @@ class Character extends FlxSprite
 				quickAnimAdd('singUP', 'noobie Up note');
 				quickAnimAdd('singRIGHT', 'noobie Note Right);
 				quickAnimAdd('singDOWN', 'noobie Down Note');
-				quickAnimAdd('singLEFT', 'noobie NOTE LEFT');
+				quickAnimAdd('singLEFT', 'noobie NOTE LEFT);
 
 				loadOffsetFile(curCharacter);
 
